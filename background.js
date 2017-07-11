@@ -25,11 +25,11 @@ function redirectAsync(requestDetails) {
 function redirect(requestDetails) {
   console.log("Redirecting: " + requestDetails.url);
   return {
-    redirectUrl: "https://38.media.tumblr.com/tumblr_ldbj01lZiP1qe0eclo1_500.gif"
+    redirectUrl: "https://ichef-1.bbci.co.uk/news/660/cpsprodpb/C16F/production/_96891594_gettyimages-151087754.jpg"
   };
 }
 
-
+// https://stackoverflow.com/questions/35803135/onbeforerequest-url-redirect-in-firefox-addon-conversion-from-chrome-extension?rq=1
 
 // add the listener,
 // passing the filter argument and "blocking"
